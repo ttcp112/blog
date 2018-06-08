@@ -1,0 +1,38 @@
+﻿.navigation {
+	position: absolute;
+}
+.navigation li {
+	width: 64px;
+	height: 64px;
+	display: block;
+}
+.navigation li a {
+	display: block;
+	width: 64px;
+	height: 64px;
+}
+.navigation li.home {
+	background: url(../images/navigation/home.png) top left no-repeat;
+	cursor: move;
+}
+.navigation li.news {
+	background: url(../images/navigation/news.png) top left no-repeat;
+}
+.navigation li.about {
+	background: url(../images/navigation/about.png) top left no-repeat;
+}
+.navigation li.contact {
+	background: url(../images/navigation/contact.png) top left no-repeat;
+}
+.navigation li.users {
+	background: url(../images/navigation/user.png) top left no-repeat;
+}
+.navigation li.rss {
+	background: url(../images/navigation/rss.png) top left no-repeat;
+}
+.navigation li.statistics {
+	background: url(../images/navigation/stats.png) top left no-repeat;
+}
+.navigation li.search {
+	background: url(../images/navigation/search.png) top left no-repeat;
+}
